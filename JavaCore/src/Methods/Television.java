@@ -9,7 +9,7 @@ public class Television {
 	{
 		System.out.println("shows display");
 	}
-	//method which takes nothing and returns nothing(int)
+	//method which takes nothing and returns something(int)
 	public int switchToAChannel()
 	{
 		return 1;
@@ -24,15 +24,15 @@ public class Television {
 	{
 		System.out.println("");
 		return (price*dis/100);
-
+		
+	}
+	
 	public double discountWithCityBank(int dis, int cityDiscount)
-		{
+	{
 		System.out.println("");
 		int totalDiscount=dis+cityDiscount;
 		return (price*(totalDiscount)/100);
-			
-		}
-}
-}
+		
+	}
 
-
+}

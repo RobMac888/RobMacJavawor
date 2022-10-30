@@ -1,22 +1,21 @@
 package collection;
+
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
 public class IteratorExample {
-
 	public static void main(String[] args) {
 		List<String> list=new ArrayList(4);
 		list.add("Upasana");
 		list.add("Upasana");
 		list.add("Rahul");
-		list.add("Rahul");
 		list.add("Simran");
-		System.out.println(list);
-		Iterator<string> itr=list.iterator();
+		System.out.println(list);		
+		Iterator<String> itr=list.iterator();
 		while(itr.hasNext())
 		{
-			System.out.println(itr.next());
+			System.out.println(itr.next());			
 		}
 		List<Product> prodList=new ArrayList();
 		Product prod1=new Product("Bluetooth",50,10,"Boat");		
@@ -34,9 +33,11 @@ public class IteratorExample {
 		Iterator<Product> prodItr=prodList.iterator();
 		while(prodItr.hasNext())
 		{
-		System.out.println(prodItr.next());
-	
-	//System.out.println(prodItr.next().name+"--"+prodItr.next().price+"--"+prodItr.next().brand+"--"+prodItr.next().quantity);			
+			System.out.println(prodItr.next());
+			
+			//System.out.println(prodItr.next().name+"--"+prodItr.next().price+"--"+prodItr.next().brand+"--"+prodItr.next().quantity);			
 		}
+		
+		
 	}
 }

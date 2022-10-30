@@ -6,7 +6,7 @@ import java.nio.file.Paths;
 public class PathTest {
 
 	public static void main(String[] args) {
-		  Path path = Path.get("/Users/robmac/Desktop/QA-260922 Software/Screenshot 2022-10-06 at 16.28.47.png");
+		  Path path = Path("/Users/robmac/Desktop/JavaQA.260922/Temp.rtf");
 	      System.out.println("Absolute Path:"+path.isAbsolute());
 	      System.out.println("FileName:"+path.getFileName());
 	      System.out.println("Absolute Path:"+path.toAbsolutePath().toString());
@@ -16,6 +16,11 @@ public class PathTest {
 	      System.out.println("Get first name:"+path.getName(0));
 	      System.out.println("Subpath:" +path.subpath(0, 3));
 	      System.out.println("Names in path:"+path.getNameCount());}
+
+	private static Path Path(String string) {
+		// TODO Auto-generated method stub
+		return null;
+	}
 
 	}
 
