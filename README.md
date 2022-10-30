@@ -1,4 +1,9 @@
 # RobMacJavawork
 
 Please find attached the programming for the period September-October 2022.
-The program was split into 1) Java Core 2) Java Intermediate 3)Springboot
+On my part I have split it into:
+Java beginner
+Java Core 
+Java Intermediate 
+JUnit Application
+Springboot
